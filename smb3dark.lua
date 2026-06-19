@@ -34,6 +34,7 @@ local c = {
     bright_blue = "#b3cffd",
     bright_cyan = "#38e9e9",
     bright_white = "#f8f8f8",
+    ghostty_bg_default = "#292c33",
 }
 
 local hl = function(group, opts)
