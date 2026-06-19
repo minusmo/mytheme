@@ -32,6 +32,7 @@ local c = {
     twilight_bright = "#b197d8",
     danger = "#c35a52",
     danger_bright = "#e58a82",
+    ghostty_bg_default = "#292c33",
 }
 
 local hl = function(group, opts)
