@@ -11,14 +11,14 @@ end
 vim.g.colors_name = "zeldadark"
 
 local c = {
-    bg = "#0d0f12",
+    bg = "#13161a",
     mantle = "#151a1e",
-    crust = "#090b0d",
+    crust = "#0f1114",
     surface0 = "#1b2228",
     surface1 = "#56606a",
     surface2 = "#29323a",
 
-    fg = "#e8e2cf",
+    fg = "#ddd7c4",
     subtext = "#c8c1af",
     comment = "#6e766c",
 
@@ -32,7 +32,6 @@ local c = {
     twilight_bright = "#b197d8",
     danger = "#c35a52",
     danger_bright = "#e58a82",
-    ghostty_bg_default = "#292c33",
 }
 
 local hl = function(group, opts)

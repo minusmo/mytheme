@@ -23,7 +23,7 @@ local c = {
     subtext = "#3c3828",
     comment = "#8a8468",
 
-    luna = "#0044d4",          -- vivid royal blue (keyword / hero)
+    luna = "#1c4dbe",          -- vivid royal blue (keyword / hero)
     luna_bright = "#1860f8",
     start = "#0a7016",         -- rich forest green (function)
     start_bright = "#1a9424",
@@ -80,7 +80,7 @@ hl("PmenuThumb", { bg = c.surface2 })
 
 hl("Visual", { bg = "#a8c0ec" })          -- strong XP selection blue
 hl("VisualNOS", { bg = "#a8c0ec" })
-hl("Search", { fg = "#1a1400", bg = "#f5dc10" })  -- vivid yellow, dark text
+hl("Search", { fg = "#1a1400", bg = "#ecd646" })  -- vivid yellow, dark text
 hl("IncSearch", { fg = c.bg, bg = c.luna, bold = true })
 hl("MatchParen", { fg = c.taskbar, bold = true, underline = true })
 

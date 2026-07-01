@@ -1,39 +1,39 @@
 vim.o.termguicolors = true
-vim.o.background = "dark"
+vim.o.background = "light"
 vim.cmd("hi clear")
 
 if vim.fn.exists("syntax_on") == 1 then
     vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "smb3dark"
+vim.g.colors_name = "smb3light"
 
 local c = {
-    bg = "#131313",
-    mantle = "#111317",
-    crust = "#0a0a0a",
-    surface0 = "#1b1f24",
-    surface1 = "#5d6872",
-    surface2 = "#2b323a",
+    bg = "#f3eee6",
+    mantle = "#f0e9df",
+    crust = "#faf6f0",
+    surface0 = "#e4dbd0",
+    surface1 = "#9a8e82",
+    surface2 = "#ccc4b8",
 
-    fg = "#e6ece4",
-    subtext = "#c8d2c6",
-    comment = "#6c766f",
+    fg = "#2a2018",
+    subtext = "#50453a",
+    comment = "#8a7e74",
 
-    mario_red = "#db6658",
-    mario_red_bright = "#ec796c",
-    fire_orange = "#f28a1e",
-    coin_yellow = "#fac547",
-    pipe_green = "#4aa651",
-    sky_blue = "#3988e3",
-    magic_cyan = "#5fd0d4",
-    enemy_magenta = "#ff5d6f",
+    mario_red = "#b83828",
+    mario_red_bright = "#cc4432",
+    fire_orange = "#c46a08",
+    coin_yellow = "#a07808",
+    pipe_green = "#2e8a38",
+    sky_blue = "#1868c0",
+    magic_cyan = "#1490a0",
+    enemy_magenta = "#b82848",
 
-    bright_red = "#febbb0",
-    bright_green = "#8be78f",
-    bright_blue = "#b3cffd",
-    bright_cyan = "#38e9e9",
-    bright_white = "#f8f8f8",
+    bright_red = "#9c2020",
+    bright_green = "#1e6e28",
+    bright_blue = "#1050a0",
+    bright_cyan = "#107888",
+    bright_white = "#2a2018",
 }
 
 local hl = function(group, opts)
@@ -73,8 +73,8 @@ hl("PmenuSel", { fg = c.bg, bg = c.fire_orange, bold = true })
 hl("PmenuSbar", { bg = c.surface0 })
 hl("PmenuThumb", { bg = c.surface2 })
 
-hl("Visual", { bg = "#4c2730" })
-hl("VisualNOS", { bg = "#4c2730" })
+hl("Visual", { bg = "#f5d8b0" })
+hl("VisualNOS", { bg = "#f5d8b0" })
 hl("Search", { fg = c.bg, bg = c.coin_yellow })
 hl("IncSearch", { fg = c.bg, bg = c.fire_orange, bold = true })
 hl("MatchParen", { fg = c.magic_cyan, bold = true, underline = true })
@@ -133,7 +133,7 @@ hl("Todo", { fg = c.bg, bg = c.coin_yellow, bold = true })
 -- Treesitter
 hl("@variable", { fg = c.fg })
 hl("@variable.builtin", { fg = c.mario_red, italic = true })
-hl("@variable.parameter", { fg = "#e6b95c", italic = true })
+hl("@variable.parameter", { fg = "#9a6a10", italic = true })
 hl("@variable.member", { fg = c.magic_cyan })
 
 hl("@constant", { fg = c.enemy_magenta })
@@ -182,10 +182,10 @@ hl("DiagnosticInfo", { fg = c.sky_blue })
 hl("DiagnosticHint", { fg = c.magic_cyan })
 hl("DiagnosticOk", { fg = c.pipe_green })
 
-hl("DiagnosticVirtualTextError", { fg = c.mario_red, bg = "#2a1616" })
-hl("DiagnosticVirtualTextWarn", { fg = c.coin_yellow, bg = "#2f2614" })
-hl("DiagnosticVirtualTextInfo", { fg = c.sky_blue, bg = "#162334" })
-hl("DiagnosticVirtualTextHint", { fg = c.magic_cyan, bg = "#132a2b" })
+hl("DiagnosticVirtualTextError", { fg = c.mario_red, bg = "#fce8e4" })
+hl("DiagnosticVirtualTextWarn", { fg = c.coin_yellow, bg = "#fdf5dc" })
+hl("DiagnosticVirtualTextInfo", { fg = c.sky_blue, bg = "#e4eef8" })
+hl("DiagnosticVirtualTextHint", { fg = c.magic_cyan, bg = "#e0f4f5" })
 
 hl("DiagnosticUnderlineError", { undercurl = true, sp = c.mario_red })
 hl("DiagnosticUnderlineWarn", { undercurl = true, sp = c.coin_yellow })
@@ -198,10 +198,10 @@ hl("LspReferenceWrite", { bg = c.surface0, underline = true })
 hl("LspSignatureActiveParameter", { fg = c.fire_orange, bold = true, underline = true })
 
 -- Diff / Git
-hl("DiffAdd", { fg = c.pipe_green, bg = "#132516" })
-hl("DiffChange", { fg = c.sky_blue, bg = "#132033" })
-hl("DiffDelete", { fg = c.mario_red, bg = "#2a1616" })
-hl("DiffText", { fg = c.coin_yellow, bg = "#3a2b12", bold = true })
+hl("DiffAdd", { fg = c.pipe_green, bg = "#e4f2e6" })
+hl("DiffChange", { fg = c.sky_blue, bg = "#e2ecf8" })
+hl("DiffDelete", { fg = c.mario_red, bg = "#fce8e4" })
+hl("DiffText", { fg = c.coin_yellow, bg = "#fdf5dc", bold = true })
 
 hl("GitSignsAdd", { fg = c.pipe_green })
 hl("GitSignsChange", { fg = c.sky_blue })

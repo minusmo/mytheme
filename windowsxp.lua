@@ -13,20 +13,20 @@ vim.g.colors_name = "windowsxp"
 -- XP silver for types, shutdown-dialog red for errors. Background is near-black
 -- with a blue tint — like the XP titlebar gradient taken to extremes.
 local c = {
-    bg = "#0a0c18",
+    bg = "#0d0f1e",
     mantle = "#0f1220",
-    crust = "#06080f",
+    crust = "#0a0c18",
     surface0 = "#151a2c",
     surface1 = "#465080",
     surface2 = "#1c2238",
 
-    fg = "#dde6f8",            -- XP window-text blue-white
+    fg = "#d2dbed",            -- XP window-text blue-white
     subtext = "#b4c4dc",
     comment = "#526080",
 
-    luna = "#2f6fd6",          -- Luna title-bar blue (keyword / hero)
+    luna = "#4f84d8",          -- Luna title-bar blue (keyword / hero)
     luna_bright = "#5e9aff",
-    start = "#3cb83c",         -- Start button green (function)
+    start = "#57b257",         -- Start button green (function)
     start_bright = "#64d864",
     bliss_sky = "#70b8e8",     -- Bliss sky (string)
     bliss_grass = "#78c050",   -- Bliss grass (string escape / raw)

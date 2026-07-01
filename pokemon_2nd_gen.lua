@@ -11,14 +11,14 @@ vim.g.colors_name = "pokemon_2nd_gen"
 -- Gen II — Johto / Gold & Silver: warm sepia night, antique gold paired with
 -- polished silver/steel, copper rust and olive moss. Metallic, cozy, dusk.
 local c = {
-    bg = "#14110c",
+    bg = "#191510",
     mantle = "#1a160f",
     crust = "#0d0b07",
     surface0 = "#221d14",
     surface1 = "#5c5240",
     surface2 = "#2c2619",
 
-    fg = "#ece3cf",
+    fg = "#e0d7c2",
     subtext = "#ccc1a8",
     comment = "#7a6f56",
 

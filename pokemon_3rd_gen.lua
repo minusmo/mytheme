@@ -12,22 +12,22 @@ vim.g.colors_name = "pokemon_3rd_gen"
 -- (no yellow here), sapphire functions, aqua operators, ruby & coral warm
 -- accents, with pearl-gold reserved for gem-bright highlights.
 local c = {
-    bg = "#07171c",
+    bg = "#0b1c22",
     mantle = "#0a1d23",
-    crust = "#040f13",
+    crust = "#081418",
     surface0 = "#0e242b",
     surface1 = "#3d5d66",
     surface2 = "#163139",
 
-    fg = "#dceae8",
+    fg = "#cfddd9",
     subtext = "#b6c9c8",
     comment = "#4f7077",
 
     emerald = "#1fc46b",         -- Emerald (keyword / hero)
     emerald_bright = "#54e094",
-    sapphire = "#2f86ea",        -- Sapphire (function)
+    sapphire = "#5192dd",        -- Sapphire (function)
     sapphire_bright = "#62a9ff",
-    aqua = "#2bd4c8",            -- tropical water (operator)
+    aqua = "#4ac9bf",            -- tropical water (operator)
     aqua_bright = "#5fe6dc",
     sea_green = "#5cc99a",       -- sea-glass (string)
     ruby = "#ec3454",           -- Ruby (error / exception)

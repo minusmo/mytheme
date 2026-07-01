@@ -23,9 +23,9 @@ local c = {
     subtext = "#5c5340",
     comment = "#9c9178",
 
-    grape = "#7d3fc0",         -- crayon purple (keyword / hero)
+    grape = "#7541ac",         -- crayon purple (keyword / hero)
     grape_deep = "#5f2aa0",
-    sky = "#2f6fd0",           -- crayon sky blue (function)
+    sky = "#3a6cbe",           -- crayon sky blue (function)
     sky_deep = "#1f54aa",
     yoshi = "#2f9440",         -- Yoshi green (string)
     yoshi_deep = "#1f7a30",

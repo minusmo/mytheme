@@ -22,11 +22,11 @@ local c = {
 
     -- Finder label colors (System 7)
     mac_red = "#cc2222",
-    mac_red_bright = "#dd3333",
+    mac_red_bright = "#c83a34",
     mac_orange = "#c86000",
     mac_yellow = "#9a7a00",
     mac_green = "#1a7a1a",
-    mac_blue = "#1a44cc",
+    mac_blue = "#2b4bb0",
     mac_cyan = "#007aaa",
     mac_purple = "#882299",
 

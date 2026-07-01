@@ -11,20 +11,20 @@ vim.g.colors_name = "pokemon_1st_gen"
 -- Gen I — Kanto / Game Boy: clean cool near-black, saturated primary type
 -- colors, Pikachu electric yellow as the hero. High contrast, bold primaries.
 local c = {
-    bg = "#0a0b10",
+    bg = "#0f1017",
     mantle = "#0f1018",
-    crust = "#050609",
+    crust = "#0a0b10",
     surface0 = "#15171f",
     surface1 = "#474b5c",
     surface2 = "#1f2230",
 
-    fg = "#eef0f5",
+    fg = "#dfe1eb",
     subtext = "#c2c6d2",
     comment = "#565b6e",
 
-    electric = "#ffcb05",       -- Pikachu yellow (hero / keyword)
+    electric = "#efc02f",       -- Pikachu yellow (hero / keyword)
     electric_bright = "#ffe24a",
-    blast_blue = "#2f9bff",      -- electric blue (function)
+    blast_blue = "#5c9fe6",      -- electric blue (function)
     blast_bright = "#62b8ff",
     venu_green = "#3ec840",      -- grass green (string)
     venu_bright = "#67e266",
